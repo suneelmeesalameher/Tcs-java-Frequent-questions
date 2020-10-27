@@ -1,0 +1,47 @@
+TCS - 14-Aug- (Java OPA) 
+Question Text: Create a class Player with below attributes: 
+playerld - int 
+playerName —String 
+scorel -int 
+score2 — int
+ score3 – int
+Write getters, setters and parameterized constructor in the above mentioned attribute sequence as required. 
+Create class Solution with main method. 
+Implement two static methods — findTotalHundredsCount and getTopPlayer in Solution class 
+findTotalHundredsCount method: 
+This method will take one input parameter - array of Player objects . 
+The method will return the number of hundreds scored in the matches by all players. Each players' scorel, score2 & score3 has to be checked for century and the count of century across scores and players should be returned. 
+If no player has scored hundred in any match, then the method should return 0. 
+getTopPlayer method: This method will take one input parameter - array of Player objects. 
+The method will return the player object, who has scored maximum runs(sum of all three match scores). 
+Note : 1) All string comparisons are case insensitive. 2) Assume only one player scores the highest runs.
+The above mentioned static methods should be called from the main method. 
+For findTotalHundredsCount method - The main method should print the count as it is, as returned by this method. If the returned count is 0, then main method should print "No Hundreds Scored in Tournament". 
+For getTopPlayer method - The main method should print the Playerld and PlayerName from the returned Player object. The Playerld and PlayerName should be concatenated with, while printing. 
+eg:- 999/Rohit, where 999 is the playerld and Rohit is the PlayerName. 
+Before calling these static methods in main, use Scanner object to read the values of four Player objects referring attributes in the above mentioned attribute sequence.
+Consider below sample input and output: 
+Input:
+ 999 
+Rohit 
+105 
+101 
+110
+ 888 
+Dhoni 
+60 
+65 
+80 
+777 
+Kohali 
+70 
+80 
+105 
+666 
+Manish 
+115 
+7 
+75 
+Output : 
+5 
+999 Rohit
