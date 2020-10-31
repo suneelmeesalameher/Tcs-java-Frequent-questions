@@ -1,0 +1,46 @@
+Create a class Movie with Attributes :
+movieName String
+ Company String
+ Genre String
+ budget int
+
+​
+
+Create setters and getters and parametrized Constructor as required
+Create another class Solution with a main method and scan attributes as above sequence
+ex :
+aaa
+Marvel
+Action
+250000000
+and scan a search attribute 
+
+
+Create a Static method getMovieByGenre which will take object array and search string as parameters and returns movies which are matching with genre(Search) having budget less than 80000000 if movie budget is above 8cr print "High Budget Movie" ( Case Senstive Search) else " Low Budget Movie"
+
+
+
+input :
+aaa
+Arka
+Action
+250000000
+bbbb
+GeethaArts
+Comedy
+25000000
+ccc
+Marvel
+Art
+2000000
+ddd
+Mythri
+Action
+300000000
+Action
+
+
+
+Output:
+High Budget Movie
+High Budget Movie 
